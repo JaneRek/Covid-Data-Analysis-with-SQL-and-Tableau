@@ -7,4 +7,4 @@ The data file is split into two parts, one of them contains info about deaths an
 This is done to use joins 
 
 The visualisation of results is done via dashboards in Tableau:
-https://public.tableau.com/app/profile/janerek/viz/Book1_16731957437000/Dashboard1
+https://public.tableau.com/app/profile/janerek/viz/Covid_Global_Data/Dashboard1
