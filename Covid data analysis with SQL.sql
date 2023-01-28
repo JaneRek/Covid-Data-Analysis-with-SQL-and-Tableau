@@ -14,7 +14,6 @@ order by 3,4
 
 --Select some Data from Covid Deaths
 --where continent is not null excludes data with the missing continents value because it has locations like World, Africa etc.
-
 select location, date, total_cases, new_cases, total_deaths, population
 from Portfolio..CovidDeaths
 where continent is not null
@@ -22,7 +21,6 @@ order by 1,2
 
 --Looking at Total Cases vs Total Deaths.
 --The DeathPercentatge column shows the probability of dying if you contracted Covid in Germany
-
 select location, date, total_cases, new_cases, (total_deaths/total_cases)*100 as DeathPercentage
 from Portfolio..CovidDeaths
 where location like '%germany%'
